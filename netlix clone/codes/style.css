@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/03ad76d1-e184-4d99-ae7d-708672fa1ac2/web/IN-en-20241111-TRIFECTA-perspective_149877ab-fcbd-4e4f-a885-8d6174a1ee81_large.jpg");
+    height: 80vh;
+    position : relative;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: max(1000px,100vw);
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.58;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+
+nav{    display: flex;
+        align-items: center;
+        max-width: 60vw; /* Limits the maximum width of the container */
+        margin: auto; /* Centers the container */
+        justify-content: space-between;
+        height: 62px;
+       
+    }
+
+    nav img{
+        background-color: black;
+        width:120px;
+        position:relative;
+        z-index:10 ;
+    }
+    nav button{
+        position:relative;
+        z-index:10 ;
+
+    }
+    .hero{
+        height:100%;
+        display:flex;
+        align-items: center;
+        justify-content:center ;
+        flex-direction: column;
+        color: white;
+        font-size:30px ;
+        position: relative;
+            font-family: "Martel Sans", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            gap: 23px;
+            padding:0 29px;
+    }
+    .hero >:nth-child(1){
+        font-weight: bolder;
+        font-size:48px;
+        text-align: center;
+        font-family:poppins ;
+        font-weight: bolder;
+    }
+
+    .hero :nth-child(2){
+        font-weight:400 ;
+        font-size:22px ;
+        text-align: center;
+
+    }
+    
+    .hero :nth-child(3){
+        font-weight:400 ;
+        font-size:19px ;
+        text-align: center;
+
+    }
+    
+    .hero :nth-child(4){
+        font-weight:400 ;
+        font-size:26px ;
+        text-align: center;
+
+    }
+    .seperation{
+        height:5px;
+        background-color: rgb(35, 27, 27);
+       
+    }
+    .btn{
+        padding:3px 8px;
+        font-weight: bold;
+        background-color:rgba(237, 243, 243, 0.2);
+        color:rgba(235, 227, 227, 0.7);
+        border: 1px solid white;
+        cursor: pointer;
+
+    }
+    .btn-red{
+        background-color: red;
+        color:white;
+        padding: 7px 24px;
+        font-size: 20px;
+        border-radius:7px ;
+
+    }
+     .btn-red-sm{
+        background-color: red;
+    
+
+     }
+     .main input{
+        padding: 7px 24px;
+        font-size: 20px;
+        border-radius:7px ;
+        background-color:rgba(21, 22, 22, 0.9);
+        color:white;
+        border: 1px solid white(241, 238, 238,0.9);
+    }
+  
+   
+    
+       
+
+
+
+}
